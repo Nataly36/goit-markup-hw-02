@@ -1,9 +1,9 @@
 :root{
-    --page-background-color:#FFFF;
+    --page-background-color:#FFFFFF;
+    --color-shade: #F4F4FD;
     --page-colortext:#434455;
     --color-second:#2E2F42;
     --color-link:#4D5AE5;
-    --color-shade: #F4F4FD;
     --color-activ:#404BBF;
     
 }
@@ -21,7 +21,7 @@ body{
 }
 .link{
     text-decoration: none;
-    color: var(--color-second);
+    color: var(--page-colortext);
     
 }
 /* heder */
@@ -43,14 +43,17 @@ body{
 .contakt-link{
     color: var(--page-colortext) ;
 }
-.menu-linl:hover, .menu-linl:focus,
+.menu-linl:hover, .menu-linl:focus{
+    color: var(--page-colortext);
+}
+.menu-linl:active{
+    color: var(--color-link);
+}
 .contakt-link:hover, .contakt-link:focus{
     color: var(--color-link)  ;
 }
 /* main */
 .hero{
-    width: 1440px;
-    height: 603px;
     background: var(--color-second);
 }
 .hero-title{
@@ -76,7 +79,7 @@ body{
 }
 .hero-but:active
 {
-    background:--color-activ ;
+    background:var(--color-activ );
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -86,14 +89,12 @@ body{
 
 }
 .title-section-team{
-    width: 1440px;
-    height: 732px;
     background-color: var(--color-shade);
 }
 .title-section-img{
     font-size: 36px;
     line-height: 1.1;
-    
+    color: var(--color-second);
 }
 .supimg{
     font-size: 20px;
@@ -123,8 +124,6 @@ body{
 }
 /* footer */
 .stile-footer{
-    width: 1440px;
-    height: 310px;
     background: var(--color-second);
 
 }
