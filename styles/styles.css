@@ -39,6 +39,7 @@ body{
 }
 .menu-linl{
     color: var(--color-second);
+    font-weight: 600;
 }
 .contakt-link{
     color: var(--page-colortext) ;
@@ -86,6 +87,7 @@ body{
 .proposition-title{
     font-size: 20px;
     line-height: 1.2;
+    color: var(--color-second);
 
 }
 .title-section-team{
@@ -99,6 +101,7 @@ body{
 .supimg{
     font-size: 20px;
     line-height: 1.2;
+    color: var(--color-second);
 }
 
 .portfoio-button{
